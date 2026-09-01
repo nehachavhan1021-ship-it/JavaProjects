@@ -2,12 +2,12 @@ package com.main.programs;
 
 import com.neha.classes.*;
 
-public class PlayerInfo {
+public class PlayerInfo02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Player obj = new Player();
+		Player02 obj = new Player02();
 //		obj.name="Neha"; // cannot use private data member like this for that we use setter and getter
 //		System.out.println(name);
 
@@ -16,7 +16,7 @@ public class PlayerInfo {
 		obj.setAge(30);
 		System.out.println(obj.getAge());
 
-		int a= obj.getAge();
+		int a = obj.getAge();
 		if (a >= 18)
 
 			System.out.println("you can vote");

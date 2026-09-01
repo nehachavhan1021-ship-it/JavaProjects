@@ -1,6 +1,6 @@
 package com.neha.classes;
 
-public class Player {
+public class Player02 {
 
 	private String name;
 	private int age;

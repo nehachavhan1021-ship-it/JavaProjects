@@ -2,27 +2,27 @@ package com.main.programs;
 
 import java.util.Scanner;
 
-import com.neha.classes.User;
+import com.neha.classes.User04;
 
-public class CheckStatus {
+public class CheckStatus04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("enter userid");
-		String ui=sc.next();
+		String ui = sc.next();
 		System.out.println("enter password");
-		String ps=sc.next();
-		
-		User ob=new User();
+		String ps = sc.next();
+
+		User04 ob = new User04();
 		ob.setUserId(ui);
 		ob.setPassword(ps);
-		
+
 //	System.out.println(ob.getStatus());	
-		
-		if(ob.getStatus().equals("success"))
+
+		if (ob.getStatus().equals("success"))
 			System.out.println("welcome to java ");
-		
+
 		else
 			System.out.println("sorry, authentication failed");
 
