@@ -1,0 +1,24 @@
+Data structures are ways to store and organize data so you can use it efficiently.
+
+collectionframework:
+->The Java Collections Framework provides a set of interfaces 
+(like List, Set, and Map) 
+and a set of classes (ArrayList, HashSet, HashMap, etc.) that implement those interfaces.
+->All of these are part of the java.util package.
+
+Interface|	Common Classes	       |Description
+List	|  ArrayList, LinkedList    | Ordered collection that allows duplicates
+Set	    |HashSet, TreeSet, LinkedHashSet  |	Collection of unique elements
+Map     |HashMap, TreeMap, LinkedHashMap	|  Stores key-value pairs with unique keys
+
+=>Use List classes when you care about order, you may have duplicates, and want to access elements by index.
+=>Use Set classes when you need to store unique values only.
+=>Use Map classes when you need to store pairs of keys and values, like a name and its phone number.
+
+List:
+The List interface is part of the Java Collections Framework and represents an ordered collection of elements.
+Since List is an interface, we cannot create a List object directly.
+
+Instead, we use a class that implements the List interface, such as:
+ArrayList - like a resizable array with fast random access
+LinkedList - like a train of cars you can easily attach or remove

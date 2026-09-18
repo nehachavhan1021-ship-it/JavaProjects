@@ -4,8 +4,8 @@ public class SwitchVowel {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String ch="a";
-		switch(ch) {
+		String ch = "a";
+		switch (ch) {
 		case "a":
 		case "A":
 		case "e":
@@ -18,10 +18,10 @@ public class SwitchVowel {
 		case "U":
 			System.out.println("Vowel");
 			break;
-			default:System.out.println("consonent");
+		default:
+			System.out.println("consonent");
 			break;
-				
-			
+
 		}
 
 	}

@@ -6,14 +6,13 @@ public class SwitchString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		Scanner sc=new Scanner (System.in);
+
+		Scanner sc = new Scanner(System.in);
 		String country;
-		
+
 		System.out.println("Enter Country");
-		country=sc.nextLine();
-		switch(country)
-		{
+		country = sc.nextLine();
+		switch (country) {
 		case "england":
 			System.out.println("Capital:London Currency: Pounds");
 			break;
@@ -22,10 +21,8 @@ public class SwitchString {
 			break;
 		default:
 			System.out.println("Information not available");
-		
+
 		}
-		
-		
 
 	}
 
